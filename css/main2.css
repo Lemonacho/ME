@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "fonts";
+    src: url("../fonts/17668.otf") format("truetype");
+  }
+
+body{
+    background-image: url(../img/godze-satoru-hollou-fioletovyj-dzhiu-dzhitsu-kajsen-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    backdrop-filter: blur(7px);
+}
+
+#img1{
+    width: 130px;
+    border-radius: 50%;
+    position: relative;
+    left: 100px;
+    filter: drop-shadow(0px 0px 15px rgb(253, 55, 41));
+}
+
+.TG {
+    width: 100px;
+    filter: drop-shadow(0px 0px 0px rgb(114, 114, 114));
+    transition: 0.5s ease;
+  }
+  
+  .TG:hover {
+    filter: drop-shadow(0px 0px 20px rgb(0, 162, 255));
+  }
+  
+  .INST {
+    width: 100px;
+    filter: drop-shadow(0px 0px 0px rgb(114, 114, 114));
+    transition: 0.5s ease;
+  }
+  
+  .INST:hover {
+    filter: drop-shadow(0px 0px 20px rgb(255, 56, 109));
+  }
+  
+  .WH {
+    width: 100px;
+    filter: drop-shadow(0px 0px 0px rgb(114, 114, 114));
+    transition: 0.5s ease;
+  }
+  
+  .WH:hover {
+    filter: drop-shadow(0px 0px 20px rgb(0, 255, 4));
+  }
+  
+  .VK {
+    width: 100px;
+    filter: drop-shadow(0px 0px 0px rgb(114, 114, 114));
+    transition: 0.5s ease;
+  }
+  
+  .VK:hover {
+    filter: drop-shadow(0px 0px 20px rgb(93, 125, 255));
+  }
+
+  .me1{
+    background-color: rgba(68, 1, 131, 0.6);
+    backdrop-filter: blur(7px);
+    width: 380px;
+    height: 380px;
+    border-radius: 15px;
+    border: 1.7px black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    box-shadow: 0px 0px 20px rgb(105, 63, 255);
+  }
+
+  #ME1{
+    border-radius: 15px;
+    width: 320px;
+    height: 320px;
+  }
+
+  .me2{
+    background-color: rgba(68, 1, 131, 0.6);
+    backdrop-filter: blur(7px);
+    width: 380px;
+    height: 480px;
+    border-radius: 15px;
+    border: 1.7px black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 350px;
+    left: 550px;
+    box-shadow: 0px 0px 20px rgb(105, 63, 255);
+  }
+
+  #ME2{
+    border-radius: 15px;
+    width: 320px;
+    height: 430px;
+  }
+
+  .aboutme{
+    background-color: rgba(68, 1, 131, 0.6);
+    backdrop-filter: blur(7px);
+    border: 1.7px black solid;
+    box-shadow: 0px 0px 20px rgb(105, 63, 255);
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 250px;
+    left: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 15px;
+  }
+
+  #aboutme{
+    font-size: 30px;
+    padding: 15px;
+    font-family: 'fonts', sans-serif;
+    color: white;
+  }

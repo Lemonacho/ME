@@ -1,0 +1,351 @@
+@font-face {
+  font-family: "fonts";
+  src: url("../fonts/17668.otf") format("truetype");
+}
+
+body {
+  background-image: url(../img/godze-satoru-hollou-fioletovyj-dzhiu-dzhitsu-kajsen-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  user-select: none;
+}
+
+
+/* РЕГИСТРАЦИЯ */
+
+.regauth {
+  background: rgba(0, 0, 0, 0.8);
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  left: 40%;
+  top: 20%;
+  backdrop-filter: blur(7px);
+  margin: 0;
+  padding: 0;
+  box-shadow: 0px 0px 30px black;
+}
+
+.reg {
+  width: 400px;
+  height: 500px;
+}
+.regtitle {
+  font-family: "fonts", sans-serif;
+  color: rgb(250, 115, 250);
+  width: 100%;
+  height: 50px;
+  position: relative;
+  top: 10px;
+  font-size: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.regusername {
+  position: relative;
+  top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "fonts", sans-serif;
+  color: azure;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+#regUsername {
+  background-color: black;
+  border: none;
+  width: 200px;
+  margin: 0;
+  position: relative;
+  top: -10px;
+  padding: 10px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 0px 10px rgb(235, 124, 235));
+  color: white;
+}
+
+.regpass {
+  position: relative;
+  top: -10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "fonts", sans-serif;
+  color: azure;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+#regPass {
+  background-color: black;
+  border: none;
+  width: 200px;
+  margin: 0;
+  position: relative;
+  top: -10px;
+  padding: 10px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 0px 10px rgb(235, 124, 235));
+  color: white;
+}
+
+.regemail {
+  position: relative;
+  top: -10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "fonts", sans-serif;
+  color: azure;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+#regEmail {
+  background-color: black;
+  border: none;
+  width: 200px;
+  margin: 0;
+  position: relative;
+  top: -10px;
+  padding: 10px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 0px 10px rgb(235, 124, 235));
+  color: white;
+}   
+
+.regbutton{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+}
+
+#regbutton{
+    height: 50px;
+    border: none;
+    background-color: rgb(0, 0, 0, 0.7);
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    transition: 0.4s ease-in-out;
+}
+
+#regbutton:hover{
+    box-shadow: 0px 0px 2cap plum;
+    color: rgb(255, 0, 212);
+}
+
+/* СВИЧ КНОПКА */
+.switchtologin{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: -550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#switchtologin{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(174, 96, 248, 0.8);
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
+    backdrop-filter: blur(7px);
+    color: white;
+    font-family: 'fonts', sans-serif;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+}
+
+#switchtologin:hover{
+    background-color: rgb(61, 0, 117);
+    color: rgb(224, 192, 253);
+    filter: drop-shadow(0px 0px 20px rgb(205, 98, 255));
+}
+
+
+/* ЛОГИН */
+
+.logauth {
+    background: rgba(0, 0, 0, 0.8);
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    backdrop-filter: blur(7px);
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 0px 30px black;
+  }
+  
+  .log {
+    width: 400px;
+    height: 500px;
+  }
+  .logtitle {
+    font-family: "fonts", sans-serif;
+    color: rgb(250, 115, 250);
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logname {
+    position: relative;
+    top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "fonts", sans-serif;
+    color: azure;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #logUsername {
+    background-color: black;
+    border: none;
+    width: 200px;
+    margin: 0;
+    position: relative;
+    top: -10px;
+    padding: 10px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 10px rgb(235, 124, 235));
+    color: white;
+  }
+  
+  .logpass {
+    position: relative;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "fonts", sans-serif;
+    color: azure;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #logPass {
+    background-color: black;
+    border: none;
+    width: 200px;
+    margin: 0;
+    position: relative;
+    top: -10px;
+    padding: 10px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 0px 10px rgb(235, 124, 235));
+    color: white;
+  }
+  
+  .logbutton{
+      width: 100%;
+      height: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      top: 100px;
+      
+  }
+  
+  #logbutton{
+      height: 50px;
+      border: none;
+      background-color: rgb(0, 0, 0, 0.7);
+      cursor: pointer;
+      border-radius: 10px;
+      font-size: 20px;
+      color: white;
+      padding: 10px;
+      transition: 0.4s ease-in;
+  }
+  
+  #logbutton:hover{
+      box-shadow: 0px 0px 2cap plum;
+      color: rgb(255, 0, 212);
+  } 
+
+/* СВИЧ КНОПКА */   
+.switchtoreg{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top: -550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  #switchtoreg{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(174, 96, 248, 0.8);
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
+    backdrop-filter: blur(7px);
+    color: white;
+    font-family: 'fonts', sans-serif;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+}
+
+#switchtoreg:hover{
+    background-color: rgb(61, 0, 117);
+    color: rgb(224, 192, 253);
+    filter: drop-shadow(0px 0px 20px rgb(205, 98, 255));
+}

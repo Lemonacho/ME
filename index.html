@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REG/AUTH</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="regauth">
+      <div class="reg">
+        <div class="regtitle">
+          <p>Регистрация</p>
+        </div>
+        <div class="regusername">
+          <p>Логин</p>
+          <input type="text" placeholder="Username" id="regUsername" />
+        </div>
+        <div class="regpass">
+          <p>Пароль</p>
+          <input type="password" placeholder="Password" id="regPass" />
+        </div>
+        <div class="regemail">
+          <p>Ваш Email</p>
+          <input type="email" placeholder="Email" id="regEmail" />
+        </div>
+        <div class="regbutton">
+          <button onclick="NEXTpage()" id="regbutton">
+            Зарегистрироваться
+          </button>
+        </div>
+      </div>
+      <div class="switchtologin">
+        <button onclick="toggleForms('logauth', 'regauth')" id="switchtologin">Логин</button>
+      </div>
+    </div>
+
+    <div class="logauth">
+      <div class="log">
+        <div class="logtitle">
+          <p>Вход</p>
+        </div>
+        <div class="logname">
+          <p>Логин</p>
+          <input type="text" placeholder="Username" id="logUsername" />
+        </div>
+        <div class="logpass">
+          <p>Пароль</p>
+          <input type="password" placeholder="Password" id="logPass" />
+        </div>
+        <div class="logbutton">
+          <button onclick="NEXTpage()" id="logbutton">Войти</button>
+        </div>
+      </div>
+      <div class="switchtoreg">
+        <button onclick="toggleForms('regauth', 'logauth')" id="switchtoreg">Регистрация</button>
+      </div>
+    </div>
+    <!-- JS -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
